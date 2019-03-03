@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult Contactsss()
+        {
+            ViewBag.Message = "Your contactsss page."; 
+
+            return View();
+        }
     }
 }
